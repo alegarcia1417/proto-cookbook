@@ -3,11 +3,11 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
+  title: Prototype Project Repo
   github: https://github.com/projectpythia/cookbook-template
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Alejandra Garcia
+  copyright: '2025'
   toc:
     - file: README.md
     - title: Preamble
