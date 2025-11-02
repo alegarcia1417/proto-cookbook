@@ -4,3 +4,10 @@ tags:
     - sampledomain
   packages:
     - samplepackage
+
+thumbnail: U.S._Census_Bureau_logo_post-2011.svg.png
+tags:
+  domains:
+    - sampledomain
+  packages:
+    - samplepackage

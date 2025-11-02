@@ -3,10 +3,13 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Prototype Project Repo
+  title: Prototype Project Repo HW3
   github: https://github.com/projectpythia/cookbook-template
   authors:
     - name: Alejandra Garcia
+    - name: Anna Walker
+    - name: Bianca Mendez-Cruz
+    - name: Thomas Weist
   copyright: '2025'
   toc:
     - file: README.md
@@ -16,6 +19,15 @@ project:
     - title: Introduction
       children:
         - file: notebooks/notebook-template.ipynb
+    -title: Xarray Notebook
+     children:
+        - file: notebooks/xarray.ipynb
+    -title: notebook1
+     children:
+        - file: notebooks/notebook1.ipynb
+    -title: notebook2
+     children:
+        - file: notebooks/notebook2.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-template

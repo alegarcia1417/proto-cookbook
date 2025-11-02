@@ -5,3 +5,10 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - matplotlib.pyplot
+  - geopandas
+  - pandas
+  - shapely
+  - UserDefined
+  - cartopy
+  - metpy.plots
