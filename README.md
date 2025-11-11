@@ -7,15 +7,15 @@
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers areas impacted by Hurricane Helene, looking at infrastructure and meteorological impacts, as well as an overview of social vulnerability and disaster declarations issued.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook works with csv datasets, Pandas DataFrames, GeoPandas, cleaning and isolating data, and visualizing data geographically over polygons. This  aims to teach how to conduct proper data analysis and plot data across polygons.
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Alejandra Garcia](https://github.com/alegarcia1417)
 
 ### Contributors
 
@@ -25,15 +25,15 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is organized into two notebooks: visualizing presidential disaster declarations and physical impacts of Hurricane Helene AND visualizing the social vulnerability in counties impacted by Hurricane Helene.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Notebook 1
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+This notebook imported two csv datasets and merged them to retain population, exposure, and recovery data for Hurricane Helene, as well as county geometry to be able to plot the statistical data as polygons. This notebook also spatially visualized the counties that issued a presidential disaster declaration during Hurricane Helene in 2024. This notebook also spatially mapped the distribution of customers who lost power during Hurricane Helene and the maximum observed wind swath during Hurricane Helene in each of the affected counties.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Notebook 2
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This notebook read in the helene_merged.csv we created in notebook1, but we also had to ensure that the geometry column was readable. We converted the MKT String to Shapely Geometry in order to convert helene_merged to a GeoDataFrame so the geometry column could be read as polygons. After that, this notebook plotted poverty level percentages using data from helene_merged as well as amount of people living in rural areas in the counties where Hurricane Helene led to a presidential disaster declaration.
 
 ## Running the Notebooks
 

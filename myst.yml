@@ -19,14 +19,11 @@ project:
     - title: Introduction
       children:
         - file: notebooks/notebook-template.ipynb
-    -title: Xarray Notebook
-     children:
-        - file: notebooks/xarray.ipynb
-    -title: notebook1
-     children:
+    - title: notebook1
+      children:
         - file: notebooks/notebook1.ipynb
-    -title: notebook2
-     children:
+    - title: notebook2
+      children:
         - file: notebooks/notebook2.ipynb
   jupyter:
       binder:
