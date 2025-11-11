@@ -29,7 +29,7 @@ This cookbook is organized into two notebooks: visualizing presidential disaster
 
 ### Notebook 1
 
-This notebook imported two csv datasets and merged them to retain population, exposure, and recovery data for Hurricane Helene, as well as county geometry to be able to plot the statistical data as polygons. This notebook also spatially visualized the counties that issued a presidential disaster declaration during Hurricane Helene in 2024. This notebook also spatially mapped the distribution of customers who lost power during Hurricane Helene and the maximum observed wind swath during Hurricane Helene in each of the affected counties.
+This notebook imported two csv datasets and merged them to retain population, exposure, and recovery data for Hurricane Helene, as well as county geometry to be able to plot the statistical data as polygons. This notebook also spatially visualized the counties that issued a presidential disaster declaration during Hurricane Helene in 2024. This notebook also spatially mapped the distribution of customers who lost power during Hurricane Helene and the maximum observed wind swath during Hurricane Helene in each of the affected counties. ({cite:t}`Sawyer:2025`) ({cite:t}`US Army Corps of Engineers - Nashville District:2025`)
 
 ### Notebook 2
 
